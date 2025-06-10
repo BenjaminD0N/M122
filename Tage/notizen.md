@@ -203,6 +203,7 @@ chmod +x mein_script.sh # Ausführbar machen
 
 ## Skript bearbeiten
 ```bash
+touch filename # Datei erstellen
 :w         # Skript speichern
 :q!        # Vim verlassen
 vim filename # vim starten
