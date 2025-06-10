@@ -22,6 +22,7 @@
 - `ip` - Netzwerk-Informationen
 - `pwd` - aktueller Pfad
 - `date` - Datum/Zeit anzeigen
+- `touch` - Datei erstellen
 
 ## Automatisierung
 
@@ -197,4 +198,12 @@ rm datei.txt    # Datei löschen
 nano mein_script.sh    # Skript erstellen
 chmod +x mein_script.sh # Ausführbar machen
 ./mein_script.sh       # Ausführen
+```
+
+
+## Skript bearbeiten
+```bash
+:w         # Skript speichern
+:q!        # Vim verlassen
+vim filename # vim starten
 ```
